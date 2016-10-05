@@ -1,0 +1,15 @@
+{
+  "verbose": true,
+  "watch": [
+    "src/"
+  ],
+  "ignore": [
+    "\\.git",
+    "node_modules/*",
+    "public/*",
+    "npm-debug.log",
+    "node_modules/.*.*/node_modules"
+  ],
+  "ext": "js,json",
+  "exec": "npm start"
+}
